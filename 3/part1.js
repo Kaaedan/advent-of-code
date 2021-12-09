@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-let data = fs.readFileSync('./input.txt', 'utf8').split(/\r?\n/)
+const data = fs.readFileSync('./input.txt', 'utf8').split(/\r?\n/)
 
 let gamma = ''
 let epsilon = ''
